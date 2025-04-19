@@ -19,3 +19,11 @@ xargs -a aur-packages.txt yay -S --noconfirm
 
 echo "[*] Копирование конфигов"
 cp -r ./configs/hypr ~/.config/hypr
+
+echo "[*] Включение дисплей-менеджера ly"
+sudo systemctl enable ly.service
+
+echo "[*] Настройка автозапуска Hyprland при входе"
+cat << EOF >> /home/$USER/.bash_profile
+[[ -z \$DISPLAY && \$XDG_VTNR -eq 1 ]] && exec Hyprland
+EOF

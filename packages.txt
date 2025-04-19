@@ -6,6 +6,11 @@ hyprland
 waybar
 nemo
 rofi
+neofetch
+neovim
+zsh
+ly
+xdg-user-dirs
 ttf-font-awesome
 otf-font-awesome
 ttf-jetbrains-mono
