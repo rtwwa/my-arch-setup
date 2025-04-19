@@ -1,0 +1,11 @@
+base-devel
+git
+firefox
+alacritty
+hyprland
+waybar
+nemo
+rofi
+ttf-font-awesome
+otf-font-awesome
+ttf-jetbrains-mono
