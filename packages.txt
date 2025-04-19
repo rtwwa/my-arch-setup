@@ -8,6 +8,10 @@ nemo
 rofi
 neofetch
 neovim
+vim
+obsidian
+telegram-desktop-bin
+libreoffice-still
 zsh
 ly
 xdg-user-dirs
