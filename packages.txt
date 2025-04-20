@@ -11,6 +11,7 @@ neovim
 vim
 obsidian
 libreoffice-still
+mesa
 zsh
 ly
 xdg-user-dirs
