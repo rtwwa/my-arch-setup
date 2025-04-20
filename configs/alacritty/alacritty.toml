@@ -1,0 +1,19 @@
+[font]
+size = 14
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[window]
+padding = { x = 5, y = 5 }
+opacity = 0.5
+
