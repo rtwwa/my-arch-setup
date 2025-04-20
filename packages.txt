@@ -19,3 +19,5 @@ gnome-keyring
 ttf-font-awesome
 otf-font-awesome
 ttf-jetbrains-mono
+
+brightnessctl
