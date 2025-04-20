@@ -19,6 +19,8 @@ xargs -a aur-packages.txt yay -S --noconfirm
 
 echo "[*] Копирование конфигов"
 cp -r ./configs/hypr ~/.config/hypr
+cp -r ./configs/alacritty ~/.config/alacritty
+cp -r ./configs/waybar ~/.config/waybar
 
 echo "[*] Включение дисплей-менеджера ly"
 sudo systemctl enable ly.service
