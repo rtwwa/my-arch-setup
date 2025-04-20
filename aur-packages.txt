@@ -1,2 +1,4 @@
 visual-studio-code-bin
 wlogout
+telegram-desktop-bin
+nekoray-bin
