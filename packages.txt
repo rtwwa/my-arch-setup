@@ -21,3 +21,4 @@ otf-font-awesome
 ttf-jetbrains-mono
 
 brightnessctl
+github-cli
