@@ -10,9 +10,7 @@ neofetch
 neovim
 vim
 obsidian
-telegram-desktop-bin
 libreoffice-still
-nekoray-bin
 zsh
 ly
 xdg-user-dirs
