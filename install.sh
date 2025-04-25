@@ -7,6 +7,9 @@ sudo pacman -Syu --noconfirm
 echo "[*] Установка основных пакетов"
 xargs -a packages.txt sudo pacman -S --noconfirm
 
+echo "[*] Установка местного времени"
+sudo timedatectl set-timezone Europe/Samara
+
 echo "[*] Проверка yay"
 if ! command -v yay &> /dev/null; then
   echo "[*] Установка yay"
